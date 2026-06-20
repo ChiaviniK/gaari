@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-<h4 align="center">Página oficial do Grupo de Apoio aos Animais de Rua de Itaquaquecetuba.</h4>
+<h4 align="center">Página oficial do Grupo de Apoio aos Animais da Rua de Iguape.</h4>
 
 <p align="center">
   <a href="#sobre-o-projeto">Sobre</a> •
@@ -19,7 +19,7 @@
 
 ## 🐶 Sobre o Projeto
 
-Este projeto é uma **Landing Page** responsiva desenvolvida para o **GAARI** (Grupo de Apoio aos Animais de Rua de Itaquaquecetuba), uma organização dedicada a proteger, resgatar e transformar a vida de cães e gatos em situação de rua. 
+Este projeto é uma **Landing Page** responsiva desenvolvida para o **GAARI** (Grupo de Apoio aos Animais da Rua de Iguape), uma organização dedicada a proteger, resgatar e transformar a vida de cães e gatos em situação de rua. 
 
 O foco principal do site é aumentar a visibilidade da ONG e facilitar doações por meio do Pix, ajudando na captação de recursos para cuidados veterinários, ração e abrigo.
 

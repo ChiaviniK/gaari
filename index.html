@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GAARI - Grupo de Apoio aos Animais de Rua</title>
-    <meta name="description" content="O GAARI (Grupo de Apoio aos Animais de Rua de Itaquaquecetuba) atua na proteção animal. Conheça nosso trabalho e ajude com doações.">
+    <title>GAARI - Grupo de Apoio aos Animais da Rua de Iguape</title>
+    <meta name="description" content="O GAARI (Grupo de Apoio aos Animais da Rua de Iguape) atua na proteção animal, esterilização e resgate. Ajude-nos com doações.">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,14 +12,16 @@
 
     <header class="header" id="header">
         <div class="container header-content">
-            <a href="#" class="logo">
-                <span class="logo-text">GAARI</span>
+            <a href="#" class="logo" style="display: flex; align-items: center; gap: 10px;">
+                <img src="assets/logo.png" alt="Logo GAARI" style="height: 40px; width: auto; border-radius: 5px;">
+                <span class="logo-text">GAARI de Iguape</span>
             </a>
             <nav class="nav">
                 <ul class="nav-list">
-                    <li><a href="#sobre" class="nav-link">Sobre Nós</a></li>
-                    <li><a href="#doacoes" class="nav-link">Doações</a></li>
-                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#adocao" class="nav-link">Adoção</a></li>
+                    <li><a href="#doacoes" class="nav-link">Como Ajudar</a></li>
+                    <li><a href="#pontos" class="nav-link">Localização</a></li>
                 </ul>
             </nav>
         </div>
@@ -30,7 +32,7 @@
             <div class="container hero-container">
                 <div class="hero-text">
                     <h1 class="hero-title">Amor, Cuidado e Proteção.</h1>
-                    <p class="hero-subtitle">Transforme a vida de animais de rua. Junte-se ao Grupo de Apoio aos Animais de Rua de Itaquaquecetuba (GAARI) e faça a diferença hoje mesmo.</p>
+                    <p class="hero-subtitle">Transforme a vida de animais de rua. Junte-se ao Grupo de Apoio aos Animais da Rua de Iguape (GAARI) e faça a diferença hoje mesmo.</p>
                     <a href="#doacoes" class="btn btn-primary">Doe Agora</a>
                 </div>
                 <div class="hero-image-wrapper">
@@ -42,11 +44,32 @@
         <section class="about" id="sobre">
             <div class="container">
                 <div class="section-title-wrapper">
-                    <h2 class="section-title">Sobre Nós</h2>
+                    <h2 class="section-title">Sobre o GAARI</h2>
                 </div>
                 <div class="about-content glass-card">
-                    <p>O <strong>GAARI</strong> (Grupo de Apoio aos Animais de Rua de Itaquaquecetuba) é uma organização dedicada à proteção animal. Atuamos há anos resgatando, tratando e encontrando lares cheios de amor para cães e gatos em situação de vulnerabilidade.</p>
-                    <p>Acreditamos que todo animal merece respeito, cuidado e uma chance de ser feliz. Nosso trabalho só é possível graças ao apoio de pessoas como você.</p>
+                    <h3>O que é o GAARI?</h3>
+                    <p>O <strong>Grupo de Apoio aos Animais da Rua de Iguape (GAARI)</strong> é uma ONG (organização não governamental sem fins lucrativos) que consiste na esterilização dos animais de rua, evitando assim a superpopulação e controle dos animais abandonados em nosso município.</p>
+                    <p>Foram ao todo <strong>mais de 2.000 animais esterilizados</strong>, evitando procriação indevida, e centenas destes animais resgatados e doados pela feirinha de doação.</p>
+                    
+                    <h3 style="margin-top: 2rem;">O que acontece depois do resgate?</h3>
+                    <p>Os animais vão para a sede, onde são medicados, vermifugados, vacinados e castrados. Assim, ficam disponíveis ao público, com o intuito de doá-los para pessoas responsáveis e dispostas a fornecerem todo o cuidado que necessitam, <strong>sem custo algum</strong> ao adotante.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="adocao" style="padding-top: 0;">
+            <div class="container">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Adoção Responsável</h2>
+                </div>
+                <div class="about-content glass-card" style="background: rgba(0, 166, 166, 0.05); border-color: var(--secondary-color);">
+                    <h3>O que é necessário para adotar?</h3>
+                    <p>O adotante precisa assinar um <strong>termo de responsabilidade</strong> pela adoção, que inclui especificações como:</p>
+                    <ul style="text-align: left; max-width: 500px; margin: 1rem auto; list-style-position: inside;">
+                        <li>Os dados do animalzinho;</li>
+                        <li>Se ele necessita dar continuidade em algum tratamento ou não;</li>
+                        <li>Informações sobre a última vermifugação e vacinação.</li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -54,15 +77,18 @@
         <section class="donation" id="doacoes">
             <div class="container">
                 <div class="section-title-wrapper">
-                    <h2 class="section-title">Como Ajudar</h2>
+                    <h2 class="section-title">Como Posso Ajudar?</h2>
                 </div>
+                <p style="text-align: center; margin-bottom: 3rem; color: #ccc;">Voluntários não recebem nenhuma verba do governo ou de quaisquer instituições municipais. O GAARI se mantém com doações e bingos beneficentes. Devido a isso, necessitamos muito da sua ajuda para dar continuidade ao projeto!</p>
+                
                 <div class="donation-grid">
+                    <!-- Dinheiro -->
                     <div class="donation-card glass-card">
-                        <h3>Doação via Pix</h3>
-                        <p>Sua contribuição ajuda a custear ração, medicamentos e atendimentos veterinários. Qualquer valor salva vidas!</p>
+                        <h3>Doação Financeira</h3>
+                        <p>Qualquer valor salva vidas e nos ajuda a manter o projeto!</p>
                         
                         <div class="pix-container">
-                            <span class="pix-label">Chave CNPJ:</span>
+                            <span class="pix-label">Chave PIX (CNPJ):</span>
                             <div class="pix-key-wrapper">
                                 <span class="pix-key" id="pix-key">23.304.696/0001-45</span>
                                 <button class="btn-copy" id="btn-copy" aria-label="Copiar chave Pix">
@@ -72,17 +98,96 @@
                             </div>
                             <span class="copy-feedback" id="copy-feedback">Copiado com sucesso!</span>
                         </div>
+
+                        <div style="margin-top: 1.5rem; text-align: left; font-size: 0.95rem; color: #ddd;">
+                            <p><strong>Banco do Brasil</strong><br>Agência: 4656-6<br>Conta Corrente: 13.521-6</p>
+                            <p style="margin-top: 10px;"><strong>PagSeguro</strong><br>Banco: 290 | Ag: 0001<br>CC: 01794949-6</p>
+                            <p style="margin-top: 10px;"><strong>PicPay:</strong> @gaarideiguape</p>
+                        </div>
+                    </div>
+
+                    <!-- Materiais -->
+                    <div class="donation-card glass-card">
+                        <h3>O que posso doar?</h3>
+                        <div style="text-align: left; font-size: 0.95rem; color: #ddd; margin-top: 1rem;">
+                            <p style="color: var(--primary-color); font-weight: bold; margin-bottom: 0.5rem;">Para os animais:</p>
+                            <p>Ração, produtos de limpeza, cobertores, medicamentos, coleiras/correntes e outros utensílios pet.</p>
+                            
+                            <p style="color: var(--primary-color); font-weight: bold; margin-top: 1.5rem; margin-bottom: 0.5rem;">Para o Brechó do GAARI:</p>
+                            <p>Roupas novas ou em bom estado (infantis e adultas de qualquer tamanho), produtos de beleza, cobertores, acessórios (desde colares e pulseiras a relógios), livros, CDs e outros itens em bom estado.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <section class="about" id="pontos">
+            <div class="container">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Onde posso doar?</h2>
+                </div>
+                <div class="about-content glass-card">
+                    <p style="font-size: 1.2rem; color: var(--primary-color); font-weight: bold;">Sede GAARI</p>
+                    <p>Rua Capitão Dias, 405 - Vila Garcês, Iguape - SP</p>
+
+                    <h3 style="margin-top: 2rem; margin-bottom: 1rem;">Pontos de Entrega:</h3>
+                    <ul style="text-align: left; max-width: 600px; margin: 0 auto; list-style-type: none; padding: 0;">
+                        <li style="margin-bottom: 10px;">📍 <strong>Bazar do GAARI</strong> - Ao lado da W.H.Y Papelaria e Presentes (Rua Tiradentes, Iguape - SP)</li>
+                        <li style="margin-bottom: 10px;">📍 <strong>Casa de Ração Amigo Fiel</strong></li>
+                        <li style="margin-bottom: 10px;">📍 <strong>A Farmacêutica</strong> - Av. Copacabana, 128, sala 01 (Ilha Comprida)</li>
+                        <li style="margin-bottom: 10px;">📍 <strong>Marli Nishidate</strong> - Citur</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="instagram" id="instagram" style="background-color: var(--light-bg); padding-top: 0;">
+            <div class="container">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Acompanhe no Instagram</h2>
+                </div>
+                <p style="text-align: center; margin-bottom: 3rem; color: var(--text-muted);">Siga <strong>@grupogaari</strong> para ver nossos últimos resgates, feirinhas de adoção e os finais felizes que proporcionamos!</p>
+                
+                <div class="insta-grid" style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+                    <!-- Placeholder para Post 1 -->
+                    <div class="insta-post glass-card" style="flex: 1; min-width: 300px; max-width: 350px; padding: 1.5rem; text-align: center;">
+                        <div style="background: #e1e1e1; height: 300px; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #888; margin-bottom: 1rem;">
+                            <em>Post 1 do Instagram</em>
+                        </div>
+                        <a href="https://www.instagram.com/grupogaari/" target="_blank" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Ver no Instagram</a>
+                    </div>
+                    
+                    <!-- Placeholder para Post 2 -->
+                    <div class="insta-post glass-card" style="flex: 1; min-width: 300px; max-width: 350px; padding: 1.5rem; text-align: center;">
+                        <div style="background: #e1e1e1; height: 300px; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #888; margin-bottom: 1rem;">
+                            <em>Post 2 do Instagram</em>
+                        </div>
+                        <a href="https://www.instagram.com/grupogaari/" target="_blank" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Ver no Instagram</a>
+                    </div>
+
+                    <!-- Placeholder para Post 3 -->
+                    <div class="insta-post glass-card" style="flex: 1; min-width: 300px; max-width: 350px; padding: 1.5rem; text-align: center;">
+                        <div style="background: #e1e1e1; height: 300px; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #888; margin-bottom: 1rem;">
+                            <em>Post 3 do Instagram</em>
+                        </div>
+                        <a href="https://www.instagram.com/grupogaari/" target="_blank" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Ver no Instagram</a>
+                    </div>
+                </div>
+                
+                <div style="text-align: center; margin-top: 3rem;">
+                    <p style="font-size: 0.9rem; color: #888;">* Nota técnica: Para carregar os posts automaticamente, você pode incorporar um widget gratuito (como Elfsight ou LightWidget).</p>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer class="footer" id="contato">
         <div class="container footer-content">
             <div class="footer-info">
                 <h3>GAARI</h3>
-                <p>Grupo de Apoio aos Animais de Rua de Itaquaquecetuba</p>
+                <p>Grupo de Apoio aos Animais da Rua de Iguape</p>
+                <p style="font-size: 0.9rem; color: #888; margin-top: 0.5rem;">Rua Capitão Dias, 405 - Vila Garcês, Iguape - SP</p>
             </div>
             <div class="footer-social">
                 <h4>Acompanhe nosso trabalho</h4>
